@@ -21,3 +21,12 @@ def save_plan_to_file(workout_plan, diet_plan, filename="plans.json"):
         json.dump(existing, f, indent=2)
 
     print(f"\n💾 Your plan was saved to {filename}")
+
+def clear_saved_plans(filename="plans.json"):
+    import os
+    if os.path.exists(filename):
+        os.remove(filename)
+        print("🗑️ All saved plans deleted.")
+    else:
+        print("📂 No saved plans to delete.")
+
