@@ -1,7 +1,10 @@
 from workout import generate_workout_plan
 from diet import generate_diet_plan
+from storage import save_plan_to_file
+import pyfiglet
 
 def get_user_inputs():
+    print(pyfiglet.figlet_format("AI Health Coach"))
     print("👋 Welcome to your AI Health Coach!\n")
     goal = input("🎯 What's your fitness goal? (strength / cardio / flexibility): ").strip().lower()
     days = int(input("📆 How many days per week do you want to workout? (1-7): ").strip())
@@ -23,6 +26,8 @@ if __name__ == "__main__":
 
     display_plan("🏋️ Workout Plan", workout_plan)
     display_plan("🍎 Diet Plan", diet_plan)
+
+    save_plan_to_file(workout_plan, diet_plan)
 
     print("\n✅ You're all set! Stick to the plan and let's crush your goals!")
 

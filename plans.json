@@ -1,0 +1,28 @@
+[
+  {
+    "timestamp": "2025-07-13T13:10:59.983502",
+    "workout_plan": {
+      "Day 1": "Cycling",
+      "Day 2": "Jump Rope",
+      "Day 3": "HIIT"
+    },
+    "diet_plan": {
+      "Meal 1": "Paneer salad",
+      "Meal 2": "Mixed vegetable curry",
+      "Meal 3": "Daal + rice"
+    }
+  },
+  {
+    "timestamp": "2025-07-13T13:11:32.147786",
+    "workout_plan": {
+      "Day 1": "Squats",
+      "Day 2": "Deadlifts",
+      "Day 3": "Bench Press",
+      "Day 4": "Pull-ups"
+    },
+    "diet_plan": {
+      "Meal 1": "Chicken breast + rice",
+      "Meal 2": "Fish curry"
+    }
+  }
+]

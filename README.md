@@ -40,3 +40,8 @@ Day 2: Deadlifts
 Meal 1: Oats with fruits
 Meal 2: Paneer salad
 ...
+
+## 🧠 Plan Memory
+
+- Every time you generate a new plan, it is saved to `plans.json`
+- Includes timestamp, workout plan, and diet plan
